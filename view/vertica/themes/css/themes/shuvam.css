@@ -1,7 +1,6 @@
 /* ==========================================================
 *
-! LESS Theme Builder
-* Project:	Vertica - Retina Ready Resume / CV & Portfolio
+
 *
 ========================================================== */
 /*------------------------------------------------------------------
@@ -50,7 +49,7 @@
 ! 2. General
 ========================================================== */
 body {
-  background-image: url('../../img/jessie-bg.jpg');
+  background-image: url('../../img/shuvam-bg.jpg');
   background-color: #759c8a;
 }
 h1,

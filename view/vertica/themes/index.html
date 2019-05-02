@@ -911,7 +911,7 @@
                     <!-- Portfolio item -->
                     <div class="portfolio-item">
                       <!-- Link to the item image (Put the long description on  "a" title)-->
-                      <a href="img/food-login.png" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie purus." class="nivobox" data-lightbox-gallery="portfolio">
+                      <a href="img/food-login.png" title="Food Delivery login." class="nivobox" data-lightbox-gallery="portfolio">
                         <div class="hover">
                           <p class="zoomi"><i class="fa fa-search"></i></p>
                           <!-- Item short title -->
@@ -1091,7 +1091,7 @@
                   <div class="row">
                     <div class="col-md-8 contact-form-wrapper">
                       <!-- Contact form -->
-                      <form id="contactForm" method="post" class="form" role="form">
+                      <form  action="https://formspree.io/shuvamr95@gmail.com" method="POST">
                         <!-- Form Field -->
                         <div class="form-group">
                           <input class="form-control required" id="name" name="name" placeholder="Name" type="text" required />
@@ -1099,7 +1099,7 @@
                         <!-- /Form Field -->
                         <!-- Form Field -->
                         <div class="form-group">
-                          <input class="form-control required" id="email" name="email" placeholder="Email" type="email" required />
+                          <input class="form-control required" id="email" name="_replyto" placeholder="Email" type="email" required />
                         </div>
                         <!-- /Form Field -->
                         <!-- Form Field -->
@@ -1113,9 +1113,9 @@
                         </div>
                         <!-- /Form Field -->
                         <!-- Form Field -->
-                        <!-- <div class="form-group">
-                          <input type="button" onclick="sendmail()" class="btn btn-default form-send" value="Send!">
-                        </div>   -->
+                         <div class="form-group">
+                          <input type="submit"  class="btn btn-default form-send" value="Send!">
+                        </div>   
                         <!-- /Form Field -->
                       </form>
                       <!-- /Contact Form -->     
@@ -1225,25 +1225,7 @@
 <!-- Javascript Files
 ========================================================= -->
 
-<script src="https://smtpjs.com/v3/smtp.js">
-</script>
-<script>
-function sendmail(){
-  console.log("hello")
-  Email.send({
-    Host : "587",
-    Username : "username",
-    Password : "password",
-    To : 'shuvamr95@gmail.com',
-    From : "shuvamr95@gmail.com",
-    Subject : "This is the subject",
-    Body : "And this is the body"
-}).then(
 
-  message => alert(message)
-);
-}
-</script>
 <!-- jQuery (necessary for plugins) -->
 <script src="../../../ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <!-- /jquery -->

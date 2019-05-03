@@ -146,10 +146,68 @@
       <div class="row">
         <div class="header-buttons col-md-10 col-md-offset-1">
           <!-- Download Resume Button -->
+          Log In Sign Up
+By using our site, you acknowledge that you have read and understand our Cookie Policy, Privacy Policy, and our Terms of Service.
+
+Home
+PUBLIC
+Stack Overflow
+Tags
+Users
+Jobs
+Teams
+Q&A for work
+Learn More
+How to trigger a file download when clicking an HTML button or JavaScript
+Ask Question
+
+
+352
+
+
+104
+This is crazy but I don't know how to do this, and because of how common the words are, it's hard to find what I need on search engines. I'm thinking this should be an easy one to answer.
+
+I want a simple file download, that would do the same as this:
+
+<a href="file.doc">Download!</a>
+But I want to use an HTML button, e.g. either of these:
+
+<input type="button" value="Download!">
+<button>Download!</button>
+Likewise, is it possible to trigger a simple download via JavaScript?
+
+$("#fileRequest").click(function(){ /* code to download? */ });
+I'm definitely not looking for a way to create an anchor that looks like a button, use any back-end scripts, or mess with server headers or mime types.
+
+javascript html download
+shareimprove this question
+edited Jul 23 '17 at 11:43
+
+Brett DeWoody
+31.3k2191135
+asked Jul 23 '12 at 21:22
+
+brentonstrine
+8,761195599
+12
+It's wrong because the bible says it's a sin. ;) And because I simply want to use an HTML button, and I'm not afraid of learning something new. – brentonstrine Jul 23 '12 at 21:25 
+12
+Thanks to you "how to trigger a file download in javascript" would give answers much faster for any future searcher. – Danubian Sailor Mar 6 '14 at 17:07
+add a comment
+20 Answers
+active oldest votes
+
+244
+
+For the button you can do
+
+<form method="get" action="Shuvam_Routh_Roy(737138).docx">
           <a href="#" class="btn btn-default btn-top-resume"><i class="fa fa-download"></i><span class="btn-hide-text">Download my resume</span></a>
-          <!-- /Download Resume Button -->
+          </form>       
+  <!-- /Download Resume Button -->
           <!-- Mail Button -->
-          <a href="#" class="btn btn-default btn-top-message"><i class="fa fa-envelope-o"></i><span class="btn-hide-text">Send me a message</span></a>
+          <button type="submit" class="btn btn-default btn-top-message"><i class="fa fa-envelope-o"></i><span class="btn-hide-text">Send me a message</span></button>
           <!-- /Mail Button -->
         </div>
       </div>
@@ -798,10 +856,10 @@
               <div class="col-md-8 content-wrap bg1">
                 <div class="line-content">
                   <!-- Subtitle -->
-                  <h3 class="section-item-title-1">Movie</h3>
+                  <h3 class="section-item-title-1">Movies</h3>
                   <!-- /Subtitle -->
                   <!-- content -->
-                  <p>Science Friction and Adventure type of movies.</p>
+                  <p>Science Fiction and Adventure type of movies.</p>
                   <!-- /Content -->
                 </div>
               </div>

@@ -40,7 +40,6 @@ $(document).ready(function(){
     var $spy = $(this).scrollspy('refresh');
   });  
 
-  //Bxslider -see options at http://bxslider.com/
   $('.portfolio-itens').bxSlider({
       slideWidth: 200,
       minSlides: 1,
@@ -60,7 +59,6 @@ $(document).ready(function(){
   });
 
   
-  //Nivo Lightbox
   $('a.nivobox').nivoLightbox({ effect: 'fade' });
 
   //Portfolio Animations

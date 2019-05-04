@@ -1,13 +1,4 @@
-/* jquery.nicescroll.plus
--- the addon for nicescroll
--- version 1.0.0 BETA
--- copyright 13 InuYaksa*2013
--- licensed under the MIT
---
--- http://areaaperta.com/nicescroll
--- https://github.com/inuyaksa/jquery.nicescroll
---
-*/
+
 (function(jQuery){
 
   var $ = jQuery;  // sandbox
